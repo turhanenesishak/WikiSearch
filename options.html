@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      padding: 20px;
+      min-width: 300px;
+    }
+    select, label {
+      margin: 10px 0;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <label for="language">Wikipedia Language:</label>
+  <select id="language">
+    <option value="tr">Türkçe</option>
+    <option value="en">English</option>
+    <option value="de">Deutsch</option>
+    <option value="fr">Français</option>
+    <option value="es">Español</option>
+  </select>
+
+  <label>
+    <input type="checkbox" id="enableImageSearch">
+    Enable Image Search
+  </label>
+
+  <script src="options.js"></script>
+</body>
+</html> 

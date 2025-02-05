@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "WikiSearch",
+  "version": "1.0",
+  "description": "Allows you to search the selected text in the Wiki",
+  "permissions": [
+    "contextMenus",
+    "storage"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": {
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  }
+} 
